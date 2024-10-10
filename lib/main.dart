@@ -20,14 +20,14 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8), // soal 2
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Wisata Ranu Kumbolo di Lumajang',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 const Text(
-                  'Batu, Malang, Indonesia',
+                  'Lumajang, Jawa Timur, Indonesia',
                   style: TextStyle(
                     color: Colors.grey, // soal 2
                   ),
@@ -66,9 +66,10 @@ class MyApp extends StatelessWidget {
         'maka kamu wajib menjadikan Gunung Semeru sebagai list liburan kamu.'
         'Liburan di gunung merupakan alternatif liburan yang dapat menolong kamu dari penatnya keseharian.'
         'Alam dipercaya dapat memberikan energi luar biasa bagi manusia,'
-        'sehingga tak salah jika wisata ke gunung akan membuat mood kamu membaik.'
-        '\nIdentitas hasil pekerjaan. '
-        '\nSukma Bagus Wahasdwika\n 🙂'
+        'sehingga tak salah jika wisata ke gunung akan membuat mood kamu membaik.\n'
+
+        '\nIdentitas hasil pekerjaan: '
+        '\nSukma Bagus Wahasdwika🙂\n'
         '2241720223',
         softWrap: true,
       ),
@@ -78,15 +79,21 @@ class MyApp extends StatelessWidget {
       title: 'Flutter layout: Sukma Bagus Wahasdwika dan 2241720223',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter layout demo'),
+          title: const Text('Keindahan Ranu Kumbolo'),
         ),
-        body: Column(
+        body: ListView(
           children: [
+            Image.asset(
+              'images/ranukumbolo.png',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection,
             buttonSection,  // Display button section below titleSection
             textSection,
             const Center(
-              child: Text('Hello World'),
+              child: Text('@copyright'),
             ),
           ],
         ),

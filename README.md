@@ -23,3 +23,53 @@ Langkah pertama adalah memecah tata letak menjadi elemen dasarnya:
    * Apakah UI memerlukan tab?
    * Perhatikan area yang memerlukan alignment, padding, atau borders.
 Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen disusun menjadi sebuah kolom: sebuah gambar, dua baris, dan satu blok teks.
+
+**Langkah 4: Implementasi tittle row**
+
+![alt text](image-1.png)
+
+## **Praktikum 2: Implementasi button row**
+
+**Langkah 1: Buat method Column _buildButtonColumn**
+
+![alt text](image-2.png)
+
+**Langkah 2:  Buat widget buttonSection**
+
+![alt text](image-3.png)
+
+**Langkah 3:  Tambah button section ke body**
+
+## **Praktikum 3: Implementasi text section**
+
+**Langkah 1: Buat widget textSection**
+
+![alt text](image-4.png)
+
+**Langkah 2: Tambahkan variabel text section ke body**
+
+![alt text](image-5.png)
+
+## **Praktikum 4: Implementasi image section**
+
+**Langkah 1: Siapkan aset gambar**
+
+![alt text](image-6.png)
+
+**Langkah 2: Tambahkan variabel text section ke body**
+
+![alt text](image-7.png)
+
+**Langkah 3: Terakhir, ubah menjadi ListView**
+
+![alt text](image-8.png)
+
+## **Tugas Praktikum 1**
+
+1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
+
+   ![alt text](image.png)
+   
+2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics
+3. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
+   https://github.com/bagusswahasdwikaa/layout_flutter 
