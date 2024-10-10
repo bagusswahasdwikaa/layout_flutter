@@ -1,9 +1,9 @@
 # **Layout Flutter**
 
-### Sukma Bagus Wahasdwika
-### 2241720223
+#### Sukma Bagus Wahasdwika
+#### 2241720223
 
-## Praktikum 1: Membangun Layout di Flutter
+## **Praktikum 1: Membangun Layout di Flutter**
 
 **Langkah 1: Buat Project Baru**
 
