@@ -1,16 +1,25 @@
-# layout_flutter
+# **Layout Flutter**
 
-A Layout Flutter project.
+### Sukma Bagus Wahasdwika
+### 2241720223
 
-## Getting Started
+## Praktikum 1: Membangun Layout di Flutter
 
-This project is a starting point for a Flutter application.
+**Langkah 1: Buat Project Baru**
 
-A few resources to get you started if this is your first Flutter project:
+Buatlah sebuah project flutter baru dengan nama layout_flutter. Atau sesuaikan style laporan praktikum yang Anda buat.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Langkah 2: Buka file lib/main.dart**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Buka file main.dart lalu ganti dengan kode berikut. Isi nama dan NIM Anda di text title.
+
+**Langkah 3: Identifikasi layout diagram**
+
+Langkah pertama adalah memecah tata letak menjadi elemen dasarnya:
+
+   * Identifikasi baris dan kolom.
+   * Apakah tata letaknya menyertakan kisi-kisi (grid)?
+   * Apakah ada elemen yang tumpang tindih
+   * Apakah UI memerlukan tab?
+   * Perhatikan area yang memerlukan alignment, padding, atau borders.
+Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen disusun menjadi sebuah kolom: sebuah gambar, dua baris, dan satu blok teks.
