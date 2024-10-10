@@ -5,15 +5,15 @@
 
 ## **Praktikum 1: Membangun Layout di Flutter**
 
-**Langkah 1: Buat Project Baru**
+1. **Langkah 1: Buat Project Baru**
 
 Buatlah sebuah project flutter baru dengan nama layout_flutter. Atau sesuaikan style laporan praktikum yang Anda buat.
 
-**Langkah 2: Buka file lib/main.dart**
+2. **Langkah 2: Buka file lib/main.dart**
 
 Buka file main.dart lalu ganti dengan kode berikut. Isi nama dan NIM Anda di text title.
 
-**Langkah 3: Identifikasi layout diagram**
+3. **Langkah 3: Identifikasi layout diagram**
 
 Langkah pertama adalah memecah tata letak menjadi elemen dasarnya:
 
