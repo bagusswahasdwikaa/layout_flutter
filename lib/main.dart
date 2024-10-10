@@ -57,6 +57,23 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Ranu Kumbolo adalah sebuah danau yang terletak di Taman Nasional Bromo Tengger Semeru (TNBTS), Jawa Timur.' 
+        'Danau ini merupakan bagian dari rute termudah yang berasal dari Ranu Pani menuju puncak Gunung Semeru.'
+        'Jika kamu termasuk orang yang suka tantangan dan tidak takut ketinggian,'
+        'maka kamu wajib menjadikan Gunung Semeru sebagai list liburan kamu.'
+        'Liburan di gunung merupakan alternatif liburan yang dapat menolong kamu dari penatnya keseharian.'
+        'Alam dipercaya dapat memberikan energi luar biasa bagi manusia,'
+        'sehingga tak salah jika wisata ke gunung akan membuat mood kamu membaik.'
+        '\nIdentitas hasil pekerjaan. '
+        '\nSukma Bagus Wahasdwika\n 🙂'
+        '2241720223',
+        softWrap: true,
+      ),
+    );
+
     return MaterialApp(
       title: 'Flutter layout: Sukma Bagus Wahasdwika dan 2241720223',
       home: Scaffold(
@@ -67,6 +84,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection,
             buttonSection,  // Display button section below titleSection
+            textSection,
             const Center(
               child: Text('Hello World'),
             ),
