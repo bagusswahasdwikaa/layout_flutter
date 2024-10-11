@@ -74,3 +74,8 @@ Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen di
    https://github.com/bagusswahasdwikaa/basic_layout_flutter 
 3. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
    https://github.com/bagusswahasdwikaa/layout_flutter 
+
+
+## **Praktikum 5: Membangun Navigasi di Flutter**
+
+*Link repository Praktikum 5*: https://github.com/bagusswahasdwikaa/belanja   
