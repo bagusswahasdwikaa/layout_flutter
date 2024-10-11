@@ -71,5 +71,6 @@ Pertama, identifikasi elemen yang lebih besar. Dalam contoh ini, empat elemen di
    ![alt text](image.png)
    
 2. Silakan implementasikan di project baru "basic_layout_flutter" dengan mengakses sumber ini: https://docs.flutter.dev/codelabs/layout-basics
+   https://github.com/bagusswahasdwikaa/basic_layout_flutter 
 3. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
    https://github.com/bagusswahasdwikaa/layout_flutter 
